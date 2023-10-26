@@ -18,7 +18,7 @@ type VirtualizedListProps = {
 
 /**
  * The starting point below renders 50 items in the list (our full dataset contains 100,000 entries - an unfeasible number to directly render to the DOM)
- * Remove the `.slice(0, 49)` code and complete the below component so that we maintain good scrolling performance, whilst displaying the entire list of 100,000 items.
+ * Remove the `.slice(0, 49)` code and complete the below component so that we maintain good scrolling & rendering performance, whilst "displaying" the entire list of 100,000 items.
  */
 
 function VirtualizedList({ items }: VirtualizedListProps) {
